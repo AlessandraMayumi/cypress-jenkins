@@ -3,9 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
+    "cypress": "^4.3.0",
+    "npm": "^6.14.4"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "cypress run --record --key b99bb5de-9b91-437b-a213-7dad5dcb53bd --spec cypress/integration/examples/aliasing.spec.js"
   },
