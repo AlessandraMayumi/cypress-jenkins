@@ -5,7 +5,7 @@
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
-    "cypress": "4.2.0",
+    "cypress": "^4.3.0"
   },
   "scripts": {
     "test": "./node_modules/.bin/cypress run --record --key b99bb5de-9b91-437b-a213-7dad5dcb53bd --spec cypress/integration/examples/aliasing.spec.js"
