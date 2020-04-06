@@ -1,6 +1,7 @@
 pipeline {
     agent {
         docker {
+            image 'mhart/alpine-node:latest'
             image 'cypress/base:10'
         }
     }
